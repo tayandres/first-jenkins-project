@@ -16,7 +16,7 @@ test('Youtube Search', async ({ page }) => {
 
    await searchBox.press("Enter");
 
- //  await page.waitForTimeout(3000);
+  await page.waitForTimeout(3000);
 
    let firstResult = page.locator("(//a[@id='video-title'])[1]");
 
