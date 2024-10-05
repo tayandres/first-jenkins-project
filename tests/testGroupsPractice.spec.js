@@ -10,7 +10,7 @@ test.describe('Test Group1', () => {
 
    // create afterEach for tests
     test.afterEach(async ({ page }) => { 
-        await page.waitForTimeout(3000);
+       // await page.waitForTimeout(3000);
    });
 
     

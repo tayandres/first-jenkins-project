@@ -72,12 +72,12 @@ test.describe('Test Group', () => {
 
         let inputBox = page.locator("//input[@type='number']");
 
-        await page.waitForTimeout(3000);
+        //await page.waitForTimeout(3000);
 
 
         await inputBox.fill("123");
 
-        await page.waitForTimeout(3000);
+       // await page.waitForTimeout(3000);
 
         let inputValue = await inputBox.inputValue();
 

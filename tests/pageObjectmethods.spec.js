@@ -8,7 +8,7 @@ test("Getting the title of the page", async ({ page }) => {
 
   console.log(actualTitle);
 
-  await page.waitForTimeout(3000);
+  //await page.waitForTimeout(3000);
 });
 
 test("Getting the current URL of the page", async ({ page }) => {
@@ -18,7 +18,7 @@ test("Getting the current URL of the page", async ({ page }) => {
 
   console.log(currentUrl);
 
-  await page.waitForTimeout(3000);
+  //await page.waitForTimeout(3000);
 });
 
 test("Set the window size", async ({ page }) => {
@@ -26,6 +26,6 @@ test("Set the window size", async ({ page }) => {
 
   await page.goto("https://practice.cydeo.com/");
 
-  await page.waitForTimeout(3000);
+ // await page.waitForTimeout(3000);
 });
 
